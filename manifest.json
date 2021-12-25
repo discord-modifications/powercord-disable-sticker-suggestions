@@ -1,0 +1,8 @@
+{
+   "name": "Disable Stickers Suggestions",
+   "version": "1.0.0",
+   "description": "Disables sticker suggestions while typing messages and emotes in chat.",
+   "author": "eternal",
+   "discord": "shnvz5ryAt",
+   "license": "Unlicensed"
+}
