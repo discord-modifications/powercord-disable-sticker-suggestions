@@ -33,7 +33,7 @@ module.exports = class HideDMButtons extends Plugin {
       Expressions._toggleExpressionSuggestionsEnabled = Expressions.toggleExpressionSuggestionsEnabled;
       Expressions.toggleExpressionSuggestionsEnabled = () => void 0;
 
-      if (expressionSuggestionsEnabled) Expressions.toggleExpressionSuggestionsEnabled();
+      if (expressionSuggestionsEnabled) Expressions._toggleExpressionSuggestionsEnabled();
    }
 
    pluginWillUnload() {
